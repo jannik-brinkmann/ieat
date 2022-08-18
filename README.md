@@ -5,6 +5,20 @@ The iEAT adapts the [Word Embedding Association Test](https://www.science.org/do
 
 Replication Results: 
 
-|               | X             | Y             | A             | B             | Effect Size   | p-Value       |
-| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Age           | Young         | Old           | Pleasent      | Unpleasent    |               |               |  
+|                 | X                 | Y                | A             | B             | Effect Size   | p-Value       |
+| --------------- |:-----------------:|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Age             | Young             | Old              | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |  
+| Arab-Muslim     | Other             | Arab-Muslim      | Pleasent      | Unpleasent    | 1.00325       | 0.011         |  
+| Asian           | European American | Asian American   | American      | Foreign       | 0.414446      | 0.244589      |  
+| Disability      | Disabled          | Abled            | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |  
+| Gender-Career   | Male              | Female           | Career        | Family        | -0.372293     | 0.737013      |  
+| Gender-Science  | Male              | Female           | Science       | Liberal Arts  | -0.372293     | 0.737013      |  
+| Insect-Flower   | Flower            | Insect           | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |  
+| Native          | European American | Native American  | U.S.          | World         | -0.372293     | 0.737013      |  
+| Race            | European American | African American | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |
+| Religion        | Christianity      | Judaism          | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |
+| Sexuality       | Gay               | Straight         | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |
+| Skin-Tone       | Light             | Dark             | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |
+| Weapon          | White             | Black            | Tool          | Weapon        | -0.372293     | 0.737013      |
+| Weapon (Modern) | White             | Black            | Tool          | Weapon        | -0.372293     | 0.737013      |
+| Weight          | Thin              | Fat              | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |
