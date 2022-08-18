@@ -3,7 +3,7 @@ A PyTorch replication of ["Image Representations Learned With Unsupervised Pre-T
 
 ## Method
 
-The iEAT adapts the [Word Embedding Association Test](https://www.science.org/doi/10.1126/science.aal4230) to the the image domain. Therefore, it computes the differential association of concepts X and Y with attributes A and B using pooled image-level embeddings where concepts and attributes are represented using a selected set of images. In consequence, it is based on the implicit assumption that categories can be represented using image sets.
+The iEAT adapts the [Word Embedding Association Test](https://www.science.org/doi/10.1126/science.aal4230) to the the image domain. Therefore, it computes the differential association of concepts X and Y with attributes A and B using pooled image-level embeddings where concepts and attributes are represented using a selected set of images.
 
 ## Results and Discussion 
 
