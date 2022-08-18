@@ -7,7 +7,7 @@ The iEAT adapts the [Word Embedding Association Test](https://www.science.org/do
 
 ## Results and Discussion 
 
-|                 | X                 | Y                | A             | B             | Effect Size   | p-Value       |
+|                 | X                 | Y                | A &nbsp;            | B             | Effect Size   | p-Value       |
 | --------------- |:-----------------:|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | Age             | Young             | Old              | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |  
 | Arab-Muslim     | Other             | Arab-Muslim      | Pleasent      | Unpleasent    | 1.00325       | 0.011         |  
