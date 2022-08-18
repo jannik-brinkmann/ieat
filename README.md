@@ -12,7 +12,7 @@ The iEAT adapts the [Word Embedding Association Test](https://www.science.org/do
 | Age             | Young             | Old              | &nbsp;&nbsp;&nbsp;Pleasent&nbsp;&nbsp;&nbsp;      | Unpleasent    | -0.372293     | 0.737013      |  
 | Arab-Muslim     | Other             | Arab-Muslim      | Pleasent      | Unpleasent    | 1.00325       | 0.011         |  
 | Asian           | European American | Asian American   | American      | Foreign       | 0.414446      | 0.244589      |  
-| Disability      | Disabled          | Abled            | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |  
+| Disability      | Disabled          | Abled            | Pleasent      | Unpleasent    | 0.836322      | 0.142857      |  
 | Gender-Career   | Male              | Female           | Career        | Family        | -0.372293     | 0.737013      |  
 | Gender-Science  | Male              | Female           | Science       | Liberal Arts  | -0.372293     | 0.737013      |  
 | Insect-Flower   | Flower            | Insect           | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |  
