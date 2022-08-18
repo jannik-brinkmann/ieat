@@ -7,6 +7,8 @@ The iEAT adapts the [Word Embedding Association Test](https://www.science.org/do
 
 ## Results and Discussion 
 
+I conducted the experiments using pre-trained ImageGPT-Large. The obtained differential associations often differ from the results reported in the original paper. The source of these deviations is still under investigation. 
+
 |                 | X                 | Y                | A             | B             | Effect Size   | p-Value       |
 | --------------- |:-----------------:|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | Age             | Young             | Old              | Pleasent      | Unpleasent    | -0.37     | 0.74      |  
