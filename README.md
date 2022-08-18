@@ -3,20 +3,20 @@ A PyTorch implementation of ["Image Representations Learned With Unsupervised Pr
 
 ## Method
 
-The iEAT adapts the [Word Embedding Association Test](https://www.science.org/doi/10.1126/science.aal4230) to the image domain to determine the differential association of concepts X and Y with attributes A and B - s(X, Y, A, B). Therefore, it operates on pooled image-level embeddings where concepts and attributes are represented using a selected set of images. Thus, it makes the implicit assumption that categories can be represented using image sets.
+The iEAT adapts the [Word Embedding Association Test](https://www.science.org/doi/10.1126/science.aal4230) to the the image domain. Therefore, it computes the differential association of concepts X and Y with attributes A and B using pooled image-level embeddings where concepts and attributes are represented using a selected set of images. In consequence, it is based on the implicit assumption that categories can be represented using image sets.
 
 ## Results and Discussion 
 
 |                 | X                 | Y                | A             | B             | Effect Size   | p-Value       |
 | --------------- |:-----------------:|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Age             | Young             | Old              | &nbsp;&nbsp;&nbsp;Pleasent&nbsp;&nbsp;&nbsp;      | Unpleasent    | -0.372293     | 0.737013      |  
+| Age             | Young             | Old              | Pleasent      | Unpleasent    | -0.37     | 0.74      |  
 | Arab-Muslim     | Other             | Arab-Muslim      | Pleasent      | Unpleasent    | 1.00          | 0.01          |  
-| Asian           | European American | Asian American   | American      | Foreign       | 0.42          | 0.25          |  
+| Asian           | European American | Asian American   | &nbsp;&nbsp;American&nbsp;&nbsp;      | Foreign       | 0.42          | 0.25          |  
 | Disability      | Disabled          | Abled            | Pleasent      | Unpleasent    | 0.84          | 0.14          |  
 | Gender-Career   | Male              | Female           | Career        | Family        | -0.372293     | 0.737013      |  
 | Gender-Science  | Male              | Female           | Science       | Liberal Arts  | -0.372293     | 0.737013      |  
 | Insect-Flower   | Flower            | Insect           | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |  
-| Native          | European American | Native American  | U.S.          | World         | -0.372293     | 0.737013      |  
+| Native          | European American | &nbsp;&nbsp;Native American&nbsp;&nbsp;  | U.S.          | World         | -0.372293     | 0.737013      |  
 | Race            | European American | African American | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |
 | Religion        | Christianity      | Judaism          | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |
 | Sexuality       | Gay               | Straight         | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |
@@ -24,3 +24,4 @@ The iEAT adapts the [Word Embedding Association Test](https://www.science.org/do
 | Weapon          | White             | Black            | Tool          | Weapon        | -0.372293     | 0.737013      |
 | Weapon (Modern) | White             | Black            | Tool          | Weapon        | -0.372293     | 0.737013      |
 | Weight          | Thin              | Fat              | Pleasent      | Unpleasent    | -0.372293     | 0.737013      |
+
