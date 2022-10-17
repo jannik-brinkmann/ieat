@@ -8,7 +8,7 @@ import torch
 from typing import List
 
 
-IMAGE_FILE_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.webp')
+
 
 
 class ImageGPTPooledEmbeddingExtractor:
@@ -76,7 +76,7 @@ if __name__ == "__main__":
         AssociationTestSpecification('Gender-Career', 'gender/male', 'gender/female', 'gender/career', 'gender/family')
     )
 
-    embedding_extractor = ImageGPTPooledEmbeddingExtractor('openai/imagegpt-large')
+    embedding_extractor = ImageGPTPooledEmbeddingExtractor('openai/imagegpt-small')
     ieat = ImageEmbeddingAssociationTest(embedding_extractor)
 
     for a in association_tests:

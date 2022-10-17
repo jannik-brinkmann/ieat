@@ -1,0 +1,4 @@
+from .embedding_extractor import PooledEmbeddingExtractor
+from .models.imagegpt import ImageGPTPooledEmbeddingExtractor
+from .models.beit import BeitPooledEmbeddingExtractor
+from .models import ViTPooledEmbeddingExtractor
