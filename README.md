@@ -1,9 +1,5 @@
 # Image Embedding Association Test
-A PyTorch implementation of ["Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases"](https://arxiv.org/pdf/2010.15052.pdf). In contrast to the [original implementation](https://github.com/ryansteed/ieat), I use [HuggingFace](https://huggingface.co/docs/transformers/model_doc/imagegpt)'s Transformers and support more vision models.
-
-## Method
-
-The iEAT adapts the [Word Embedding Association Test](https://www.science.org/doi/10.1126/science.aal4230) to the the image domain. Therefore, it computes the differential association using image-level embeddings where concepts and attributes are represented using a selected set of images.
+A PyTorch implementation of ["Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases"](https://arxiv.org/pdf/2010.15052.pdf). In contrast to the [original implementation](https://github.com/ryansteed/ieat), I use [HuggingFace](https://huggingface.co/docs/transformers/model_doc/imagegpt)'s Transformers and support additional vision models (ViT, BEiT) along with adapters trained using [AdapterHub](https://adapterhub.ml)'s Adapter-Transformers to measure intrinsic biases after transfer-learning. 
 
 ## Results and Discussion 
 
