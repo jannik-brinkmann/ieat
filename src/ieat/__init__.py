@@ -1,3 +1,0 @@
-from .ieat import ImageEmbeddingAssociationTest
-from .embedding_extractors import ImageGPTPooledEmbeddingExtractor, BeitPooledEmbeddingExtractor, ViTPooledEmbeddingExtractor
-from .utils import ASSOCIATION_TESTS
